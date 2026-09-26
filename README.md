@@ -117,34 +117,7 @@ Two separate threshold values are used to prevent frequent switching of the stre
 ---
 
 ## Circuit Connections
-              LDR / Light Sensor
-             +------------------+
-       3.3V--| VCC              |
-       GND --| GND              |
-             | SIG              |
-             +-------+----------+
-                     |
-                     |
-                    PA0
-                     |
-                     v
-          +-----------------------+
-          | STM32 Nucleo-L031K6   |
-          |                       |
-          | PA0 -> ADC Input      |
-          |                       |
-          | PA5 -> Digital Output |
-          +-----------+-----------+
-                      |
-                      |
-                    PA5
-                      |
-                   220 Ω
-                      |
-                      |
-                     LED
-                      |
-                     GND
+
 ### Potentiometer – LDR Simulation
 
 | Potentiometer Pin | STM32 Connection |
@@ -244,6 +217,11 @@ Streetlight: ON
 ~~~
 
 ---
+
+## Output
+
+<img width="1118" height="549" alt="WhatsApp Image 2026-09-24 at 2 39 01 PM" src="https://github.com/user-attachments/assets/abb0ac89-c69c-4dd8-b3bc-1c35d9640fad" />
+
 
 ## Working
 
